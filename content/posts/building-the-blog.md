@@ -1,5 +1,6 @@
 ---
 title: Building this blog
+draft: true
 ---
 
 ## Choosing the blog platform

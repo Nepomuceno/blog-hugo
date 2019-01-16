@@ -1,6 +1,7 @@
 ---
 title: Using Xamarin and NFC for IOT devices.
 date: 2018/12/14 01:01:01
+draft: true
 ---
 
 One of the largest challenges when we are talking about IOT it is the cpability of giving maitenance of the devices. Most of the time this can be done over the air or the devices come in pre programed from the manufacturer. But when that is not the case havinv  device that can accpet nfc as a way to program it can be really useful.

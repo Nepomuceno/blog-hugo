@@ -1,6 +1,7 @@
 ---
 title: A hacker culture
 date: 2018/07/31 01:01:01
+draft: true
 ---
 
 Changing a company culture it is something that takes time even for small companies imagine to change the culture of a company with more than 100,000 employees.

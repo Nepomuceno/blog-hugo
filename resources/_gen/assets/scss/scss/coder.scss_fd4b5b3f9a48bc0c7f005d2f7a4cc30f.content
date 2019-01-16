@@ -231,21 +231,21 @@ img {
     @media only screen and (max-width: 768px) {
       .list ul li {
         margin: 1.6rem 0 1.6rem 0; } }
-    .list ul li span.date {
+    .list ul li .date {
       display: inline-block;
       width: 20.0rem;
       text-align: right;
       margin-right: 3.0rem; }
       @media only screen and (max-width: 768px) {
-        .list ul li span.date {
+        .list ul li .date {
           display: block;
           text-align: left; } }
-    .list ul li a.title {
+    .list ul li .title {
       font-size: 1.8rem;
       color: #212121;
       font-family: Lato, Helvetica, sans-serif;
       font-weight: 700; }
-      .list ul li a.title:hover, .list ul li a.title:focus {
+      .list ul li .title:hover, .list ul li .title:focus {
         color: #1565c0; }
 
 .centered {

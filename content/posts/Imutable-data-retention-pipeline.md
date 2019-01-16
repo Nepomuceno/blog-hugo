@@ -1,6 +1,7 @@
 ---
 title: Imutable data retention pipeline
 tags:
+draft: true
 ---
 
 ## Retention goal
