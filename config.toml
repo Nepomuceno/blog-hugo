@@ -1,4 +1,4 @@
-baseurl = "https://blog2.nepomuceno.me"
+baseurl = "https://www.nepomuceno.me"
 title = "Nepomuceno"
 
 theme = "hugo-coder"

@@ -1,0 +1,7 @@
+# Redirect domain aliases to primary domain
+https://blog2.nepomuceno.me/* https://www.nepomuceno.me/:splat 301!
+https://nepomuceno.me/* https://www.nepomuceno.me/:splat 301!
+https://blog.nepomuceno.me/* https://www.nepomuceno.me/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://vigilant-engelbart-0ab771.netlify.com/* https://www.nepomuceno.me/:splat 301!
