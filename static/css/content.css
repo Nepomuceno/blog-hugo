@@ -1,0 +1,29 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+p {
+    margin: 1.0rem 0 1.0rem 0;
+}
+a {
+  color: #AA0000;
+  font-weight: 500;
+}
+.list ul li h2 a {
+  color: #222831;
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.list ul li h5 {
+  margin: 0;
+  color: #880000;
+}
+.list ul li h2 a:hover {
+  text-decoration: none;
+  color: #bb0000;
+}
+.list ul li a {
+  color: #880000;
+}

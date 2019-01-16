@@ -1,0 +1,143 @@
+baseurl = "http://nepomuceno.me"
+title = "Nepomuceno"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+
+paginate = 10
+canonifyurls = false
+
+pygmentsstyle = "autumn"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+googleAnalytics = "UA-112752160-1"
+
+disqusShortname = "nepomucenome"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+  post = "/:year/:month/:day/:title/"
+
+[params]
+    author = "Gabriel Nepomuceno"
+    description = "unscramble"
+    githubUsername = "nepomuceno"
+    keywords = "blog,developer,personal"
+    info = "Problem solver, I unscramble, I unblock"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Isn't this amazing?"
+
+    accent = "#FC3C3C"
+    showBorder = true
+    backgroundColor = "#FEFDFD"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "monokai"
+    highlightLanguages = ["go", "javascript", "csharp", "html", "typescript"]
+
+    dateformat = "2006-01-2"
+    copyright = "Gabriel Nepomuceno"
+    hideCredits = true
+    hideCopyright = false
+    favicon_32 = "ico/favicon-32x32.png"
+    favicon_16 = "ico/favicon-16x16.png"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Custom CSS
+    custom_css = [
+        "/css/content.css"
+    ]
+
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/posts/"
+    name = "Posts"
+    weight = 2
+
+[[menu.icon]]
+    url = "mailto:gabriel.bico+blog@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/nepomuceno/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/gbico/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/gabriel-nepomuceno-37a32816/"
+    name = "linkedin"
+    weight = 4
+
+
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/nepomuceno/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/gbico/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/gabriel-nepomuceno-37a32816/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 5
+    url = "https://medium.com/@gabrielmonteironepomuceno"
+
+
+#[languages]
+#    [languages.en]
+#        languagename = "English" # The language name to be displayed in the selector.
+#        title = "Gabriel Nepomuceno"
+#
+#        # You can configure the theme parameter for each language.
+#        [languages.en.params]
+#        author = "Gabriel Nepomuceno"
+#        info = "Problem solver, I unscramble"
+#        description = "My site"
+#        keywords = "blog,developer,personal"
+#
+#        [languages.en.menu] # It is possible to change the menu too.
+#
+#        [[languages.en.menu.main]]
+#        name = "About"
+#        weight = 1
+#        url = "/about/"
+#
+#        [[languages.en.menu.main]]
+#        name = "Blog"
+#        weight = 2
+#        url = "/posts/"
+#
+#        [[languages.en.menu.main]]
+#        name = "Projects"
+#        weight = 3
+#        url = "/projects/"
+#
+#        [[languages.en.menu.main]]
+#        name = "Contact me"
+#        weight = 5
+#        url = "/contact/"
